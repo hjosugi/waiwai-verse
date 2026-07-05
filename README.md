@@ -101,3 +101,7 @@ npm run smoke -w server # hello → welcome、input → snapshot を表示
 - UDP がブロックされる環境向けに WebSocket フォールバックを足すなら、
   `@fails-components/webtransport` の `HttpServer`（http/3 + ws）+ クライアント側 ponyfill に切替。
 - 証明書は10日で失効。`npm run setup` を再実行。
+
+## License
+
+0BSD. You can use, copy, modify, and distribute this project for almost any purpose.

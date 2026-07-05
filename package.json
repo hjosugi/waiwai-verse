@@ -4,7 +4,11 @@
   "private": true,
   "type": "module",
   "description": "YouTube live linked, real-time 2D avatar space over WebTransport (Ameba Pigg style).",
-  "workspaces": ["server", "client", "desktop"],
+  "workspaces": [
+    "server",
+    "client",
+    "desktop"
+  ],
   "scripts": {
     "gen-cert": "npm run gen-cert -w server",
     "sync-config": "node scripts/sync-config.mjs",
@@ -13,5 +17,8 @@
     "desktop": "npm run start -w desktop",
     "setup": "npm run gen-cert && npm run sync-config"
   },
-  "engines": { "node": ">=20 <23" }
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "license": "0BSD"
 }

@@ -15,5 +15,6 @@
   "devDependencies": {
     "@peculiar/webcrypto": "^1.5.0",
     "@peculiar/x509": "^1.12.3"
-  }
+  },
+  "license": "0BSD"
 }
