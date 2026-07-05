@@ -1,0 +1,7 @@
+node_modules/
+client/dist/
+client/public/config.json
+server/certs/cert.pem
+server/certs/key.pem
+server/certs/cert-hash.json
+.env
