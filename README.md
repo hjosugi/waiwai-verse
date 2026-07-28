@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](README.en.md) | [日本語](README.md)
+
 # わいわいバース (waiwai-verse)
 
 YouTube ライブに紐づく、一時的にわいわいできるリアルタイム2D空間。
