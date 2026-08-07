@@ -15,7 +15,9 @@
     "server": "npm run start -w server",
     "client": "npm run dev -w client",
     "desktop": "npm run start -w desktop",
-    "setup": "npm run gen-cert && npm run sync-config"
+    "setup": "npm run gen-cert && npm run sync-config",
+    "graphify:setup": "sh scripts/graphify.sh setup",
+    "graphify:update": "sh scripts/graphify.sh update"
   },
   "engines": {
     "node": ">=20 <23"
